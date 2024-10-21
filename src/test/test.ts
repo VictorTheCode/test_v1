@@ -26,4 +26,4 @@ userDB.add({ id: 1, name: "Alice", email: "alice@example.com" });
 userDB.add({ id: 2, name: "Bob", email: "bob@example.com" });
 
 console.log("All Users:", userDB.getAll());
-console.log("Find User by ID (1):", userDB.findById(1));
+console.log("Find Users by ID (1):", userDB.findById(1));
