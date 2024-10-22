@@ -22,7 +22,7 @@ class Database<T> {
 
 const userDB = new Database<User>();
 
-userDB.add({ id: 1, name: "Alice", email: "alice@example.com" });
+userDB.add({ id: 1, name: "Jmes", email: "james@example.com" });
 userDB.add({ id: 2, name: "Bob", email: "bob@example.com" });
 
 console.log("All Users:", userDB.getAll());
